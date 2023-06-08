@@ -1,7 +1,6 @@
 const request = require('request');
 
 const apiUrl = 'https://api.thecatapi.com/v1/breeds/';
-const brokenUrl = 'qeiruhgqrke3';
 
 
 const fetchBreedDescription = (searchString, callback) => {
